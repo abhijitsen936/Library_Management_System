@@ -243,6 +243,11 @@ public class LoginPage extends javax.swing.JFrame {
 
         rSMaterialButtonCircle2.setBackground(new java.awt.Color(255, 51, 51));
         rSMaterialButtonCircle2.setText("Signup");
+        rSMaterialButtonCircle2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                rSMaterialButtonCircle2MouseClicked(evt);
+            }
+        });
         rSMaterialButtonCircle2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rSMaterialButtonCircle2ActionPerformed(evt);
@@ -286,6 +291,17 @@ public class LoginPage extends javax.swing.JFrame {
     private void jCTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCTextField2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jCTextField2ActionPerformed
+
+    private void rSMaterialButtonCircle2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_rSMaterialButtonCircle2MouseClicked
+   
+      SignupPage book= new SignupPage();
+        book.setVisible(true);
+        dispose();
+ 
+
+
+// TODO add your handling code here:
+    }//GEN-LAST:event_rSMaterialButtonCircle2MouseClicked
 
     /**
      * @param args the command line arguments
