@@ -450,7 +450,7 @@ lbl_defaulterListt.setText (Integer.toString (rs.getRow()));
 
             },
             new String [] {
-                "Student ID", "Student Name", "Author", "Branch"
+                "Book ID", "Book Name", "Author", "Branch"
             }
         ));
         tbl_bookDetails.setColorBackgoundHead(new java.awt.Color(102, 102, 255));

@@ -247,8 +247,8 @@ public class ManageBooks extends javax.swing.JFrame {
 
         jLabel20.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel20.setText("Enter Bok Name");
-        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 140, 30));
+        jLabel20.setText("Enter Book Name");
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 220, 150, 30));
 
         jLabel21.setFont(new java.awt.Font("Segoe UI Historic", 0, 18)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 255, 255));

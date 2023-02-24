@@ -267,7 +267,7 @@ public class ViewAllRecord extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Id", "Book Name", "Student Namw", "Issue Date", "Due Date", "Status"
+                "Id", "Book Name", "Student Name", "Issue Date", "Due Date", "Status"
             }
         ));
         tbl_issueBookDetails.setColorBackgoundHead(new java.awt.Color(102, 102, 255));
